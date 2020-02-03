@@ -1,5 +1,5 @@
 /**
- * @auhtor Laura Malaga Brotons
+ * @author Laura Malaga Brotons
  * @version v1.2
  */
 public class Rectangulo_LMB extends FiguraGeometrica_LMB {
@@ -8,7 +8,7 @@ public class Rectangulo_LMB extends FiguraGeometrica_LMB {
 	
 	/**
 	 * Contructor parametrizado de la clase 
-	 * @param tipoFigura 
+	 * @param tipoFigura figura geometrica
 	 * @param lG lado grande
 	 * @param lP lado pequeño
 	 */
