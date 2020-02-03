@@ -10,6 +10,10 @@ public class Circulo_LMB extends FiguraGeometrica_LMB {
 	public Circulo_LMB(double r, String tipoFigura) {
 		super(tipoFigura);
 		radio = r;
+		if (r<0) 
+	    {
+	    	r*=-1;
+	    }
 	}
 
 	@Override
